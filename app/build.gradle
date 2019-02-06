@@ -5,7 +5,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.sunshine"
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -32,6 +32,8 @@ dependencies {
     api "com.android.support:preference-v7:$support_version"
     api "com.android.support.constraint:constraint-layout:$constraint_layout_version"
     api "com.firebase:firebase-jobdispatcher:$firebase_jobdispatcher_version"
+    api "android.arch.persistence.room:runtime:1.1.1"
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
 
     // Instrumentation dependencies use androidTestCompile"
     // (as opposed to testCompile for local unit tests run in the JVM"
