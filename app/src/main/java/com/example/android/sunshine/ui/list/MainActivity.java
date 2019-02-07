@@ -32,7 +32,7 @@ import java.util.Date;
 /**
  * Displays a list of the next 14 days of forecasts
  * YOU ARE HERE IN THE CODELAB:
- * https://codelabs.developers.google.com/codelabs/build-app-with-arch-components/index.html?index=..%2F..index#11
+ * https://codelabs.developers.google.com/codelabs/build-app-with-arch-components/index.html?index=..%2F..index#12
  */
 public class MainActivity extends AppCompatActivity implements
         ForecastAdapter.ForecastAdapterOnItemClickHandler {
